@@ -8,7 +8,7 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-53CBRN2');</script>
+    })(window,document,'script','dataLayer','GTM-P32MJ2J');</script>
     <!-- End Google Tag Manager -->
 
 <!-- Google tag (gtag.js) -->
@@ -64,7 +64,7 @@
 
 <body  style="margin:0">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53CBRN2"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P32MJ2J"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- main -->
@@ -148,6 +148,17 @@
     </script>
 <script>
     $(document).ready(function(){
+
+        function showTime() {
+                      var date = new Date();
+                      var hour = date.getHours().toString().padStart(2, "0");;
+                      var minute = date.getMinutes().toString().padStart(2, "0");;
+                      var second = date.getSeconds().toString().padStart(2, "0");;
+                      var time = hour + "시 " + minute + "분 " + second + "초 기준 "
+                      document.getElementById("countdown1").innerText = time;
+                    }
+                    setInterval(showTime, 1000);
+
     const today = new Date();
     const year = today.getFullYear();
     const month = today.getMonth() + 1;
@@ -155,6 +166,7 @@
     
     document.querySelector(".today_date").innerHTML = year + "년 " + month + "월 " + date + "일 기준";
     document.querySelector(".today_date1").innerHTML = year + "년 " + month + "월 " + date + "일 기준";
+    document.querySelector(".today_date2").innerHTML = year + "." + month + "." + date ;
 })
   </script>
 
