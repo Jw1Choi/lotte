@@ -9,21 +9,9 @@ testbody.innerHTML = `
         <h1 class="wow fadeInUp">즉시 출고 가능!<br>오늘의 특가 프로모션</h1><br>
         <a href="#sec05" class="scroll box">
             <span class="timer">
-                현재 특가 | <script language="javascript" type="text/javascript">
-                    today=new Date()
-                    document.write(today.getFullYear(),".",today.getMonth()+1,".",today.getDate()) 
+                현재 특가 | <span class="today_date2" style="bottom:0;"></span> 
                 </script> ( <span id="countdown1"></span>)
-                  <script>
-                    function showTime() {
-                      var date = new Date();
-                      var hour = date.getHours().toString().padStart(2, "0");;
-                      var minute = date.getMinutes().toString().padStart(2, "0");;
-                      var second = date.getSeconds().toString().padStart(2, "0");;
-                      var time = hour + "시 " + minute + "분 " + second + "초 기준 "
-                      document.getElementById("countdown1").innerText = time;
-                    }
-                    setInterval(showTime, 1000);
-                  </script>
+            
             </span>
         </a> <br><br>
     </div>
