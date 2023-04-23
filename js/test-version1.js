@@ -52,7 +52,7 @@ testbody.innerHTML = `
 
 <div class="sec01 contents bg-light">
     <div class="inner">
-        <h1>오늘의 프로모션</h1><br>
+        <h1>오늘의 프로모션</h1><br><br>
         <span id="rent_btn" style="padding:10px 40px;border:1px solid #3684d2;margin-right:20px;border-radius:5px;background:#3684d2;color:white;cursor:pointer;" onclick="rent()">장기렌트</span><span id="lease_btn" style="padding:10px 40px;border:1px solid #3684d2;border-radius:5px;background:white;cursor:pointer;" onclick="lease()">신차리스</span><br><br><br>
 
     
@@ -280,7 +280,7 @@ testbody.innerHTML = `
     <div class="inner">
         <h1 class="form-top-title">오늘의 특가 견적 신청하기</h1>
         <div class="form-box-inner">
-            <form action="" id="form_e11" method="POST" target="hidden_iframe11" onsubmit="dll(); submitted=true;">
+            <form action="" id="form_e11" method="POST" target="hidden_iframe11"  onsubmit="dll();kakaoPixel('7504569149976260948').purchase('purchase');submitted=true;">
 
                 <div class="form-box-tb-out">
                 <br>
@@ -418,7 +418,7 @@ testbody.innerHTML = `
 </div><!-- contentsWrap end -->
 
 
-<section id="dbscf" style="display:none;" >
+<!-- <section id="dbscf" style="display:none;" >
 <form id="db" name="inputForm" accept-charset="euc-kr" method="post" action="https://dbdbdeep.com/site17/ifr/ifr_save.php">
 <input type="hidden" name="ms" value="S00242885B" />
 <input type="hidden" name="ca" value="C05120127C" />
@@ -451,7 +451,7 @@ testbody.innerHTML = `
  <span style="color:#fff">신청하기</span>
     </a>
 
-</section>
+</section> -->
 
 
 
