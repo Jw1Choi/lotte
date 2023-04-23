@@ -36,13 +36,9 @@
     gtag('event', 'conversion', {'send_to': 'AW-11061217748/xqj3CP3X85kYENSTs5op'});
   </script>
 
-<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script>
-<script type="text/javascript">
-      kakaoPixel('7504569149976260948').pageView('pageView');
-</script>
-  
 
-<div id="purchase"></div>
+ 
+
 
     <title>롯데렌터카 이벤트</title>
     <meta charset="UTF-8">
@@ -68,9 +64,17 @@
     <link rel="stylesheet" href="css/animate.css">
 
 
-
-   
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/kp.js"></script>
+    <script type="text/javascript">
+          kakaoPixel('7504569149976260948').pageView('pageView');
+    </script>
+      
+    
+    <div id="purchase" >
+        <!-- 기존 내용 -->
+      </div>
+    
     
 </head>
 
@@ -86,7 +90,7 @@
 
      <!-- Script File -->
      <!-- jQuery library -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
      <!-- Popper JS -->
    
      <script src="./js/personal.js"></script>
@@ -205,6 +209,24 @@
 
     }
 </script>
+
+<script type="text/javascript">
+    function addScript() {
+      // 새로운 script 태그 생성
+ 
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.charset = "UTF-8";
+      script.src = "//t1.daumcdn.net/kas/static/kp.js";
+      document.getElementById("purchase").appendChild(script);
+
+      // kakaoPixel 함수 호출하는 script 태그 생성
+      var pixelScript = document.createElement("script");
+      pixelScript.type = "text/javascript";
+      pixelScript.text = "kakaoPixel('7504569149976260948').pageView(); kakaoPixel('7504569149976260948').purchase('purchase');";
+      document.getElementById("purchase").appendChild(pixelScript);
+    }
+  </script>
 
 </body>
 </html>
