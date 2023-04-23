@@ -55,29 +55,7 @@ testbody.innerHTML = `
         <h1>오늘의 프로모션</h1><br>
         <span id="rent_btn" style="padding:10px 40px;border:1px solid #3684d2;margin-right:20px;border-radius:5px;background:#3684d2;color:white;cursor:pointer;" onclick="rent()">장기렌트</span><span id="lease_btn" style="padding:10px 40px;border:1px solid #3684d2;border-radius:5px;background:white;cursor:pointer;" onclick="lease()">신차리스</span><br><br><br>
 
-        <script>
-            function rent(){
-                $('#rent_btn, #lease_btn').css({transition:"1s"});
-                $('#rent_btn').css({background:"#3684d2"});
-                $('#rent_btn').css({color:"white"});
-                $('#lease_btn').css({background:"white"});
-                $('#lease_btn').css({color:"#3684d2"});
-                $('#lease, #rent').hide(500);
-                $('#rent').show(500);
-         
-            }
-
-            function lease(){
-                $('#rent_btn, #lease_btn').css({transition:"1s"});
-                $('#lease_btn').css({background:"#3684d2"});
-                $('#lease_btn').css({color:"white"});
-                $('#rent_btn').css({background:"white"});
-                $('#rent_btn').css({color:"#3684d2"});
-                $('#lease, #rent').hide(500);
-                $('#lease').show(500);
-
-            }
-        </script>
+    
 
 
         <div id="rent">
@@ -184,7 +162,7 @@ testbody.innerHTML = `
             <div class="title">한정 수량</div>
             <div class="txt">
                 - 오늘 기준 (<span class="today_date" style="bottom:0;"></span>) 의 특가 상품만을 구성<br><br>
-                <span class="blink" >- 신청 대기로 인한 수량 마감 시 자동 종료됩니다. </span><br><br>
+                <span class="blink" >- 수량 마감 시 혜택이 끝날 수 있습니다. </span><br><br>
                 - 국내, 수입차 전차종 견적도 추가할인해 드립니다.
             </div>
         </li>
