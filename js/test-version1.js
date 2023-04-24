@@ -418,7 +418,7 @@ testbody.innerHTML = `
 </div><!-- contentsWrap end -->
 
 
-<!-- <section id="dbscf" style="display:none;" >
+<section id="dbscf" style="display:none;" >
 <form id="db" name="inputForm" accept-charset="euc-kr" method="post" action="https://dbdbdeep.com/site17/ifr/ifr_save.php">
 <input type="hidden" name="ms" value="S00242885B" />
 <input type="hidden" name="ca" value="C05120127C" />
@@ -451,7 +451,7 @@ testbody.innerHTML = `
  <span style="color:#fff">신청하기</span>
     </a>
 
-</section> -->
+</section>
 
 
 
