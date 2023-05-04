@@ -6,7 +6,7 @@ testbody.innerHTML = `
      
         <!-- <img src="./img/gov.png" style="width:150px"> -->
    <img src="./img/logo.png" style="width:250px">
-        <h1 class="wow fadeInUp">즉시 출고 가능!<br>오늘의 특가 프로모션</h1><br>
+        <h1 class="wow fadeInUp"><span style="color:yellow">가정의 달 5월 이벤트</span><br>한정 매물 특가 프로모션</h1><br>
         <a href="#sec05" class="scroll box">
             <span class="timer">
                 현재 특가 | <span class="today_date2" style="bottom:0;"></span> 
@@ -19,8 +19,8 @@ testbody.innerHTML = `
     <img src="img/main4.png" class="img-main wow fadeInUp">
     <ul class="listWrap">
         <li class="wow fadeInUp">
-            <div>
-               오늘 한정<br>특가 프로모션<br>
+            <div class="blink" style="color:yellow">
+               전 차종<br><span class="num">30</span> 만원 할인 쿠폰!<br>
             <!-- <span class="num">국내차, 외제차</span> -->
             </div>
         </li>
@@ -46,13 +46,41 @@ testbody.innerHTML = `
 </div>
 </div>
 <!-- end main -->
+
+
+<div class="sec03 contents bg-light">
+    <div class="inner">
+        <div class="row">
+            <div class="col-md-4 col-12 wow fadeInLeft">
+                <div class="row">
+                    <h2 class="col-md-12 col-6">
+                        가정의 달 특별 혜택!<br><span style="font-size:27px;">(이벤트 기한 내 계약하신 분에게)</span>
+                    </h2>
+                    <div class="col-md-12 col-6">
+                        <img src="img/won.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-12 wow fadeInRight">
+                <p>
+                  
+                    
+                    <span>전 차종<br>최대 </span><span class="counter">30</span><span>만원 할인</span><br><span class="blink">(5월 12일까지!)</span>
+
+                   
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- contents -->
 <div class="contentsWrap">
 
 
 <div class="sec01 contents bg-light">
     <div class="inner">
-        <h1>오늘의 프로모션</h1><br><br>
+        <h1>페이지 한정<br>오늘의 프로모션</h1><br><br>
         <span id="rent_btn" style="padding:10px 40px;border:1px solid #3684d2;margin-right:20px;border-radius:5px;background:#3684d2;color:white;cursor:pointer;" onclick="rent()">장기렌트</span><span id="lease_btn" style="padding:10px 40px;border:1px solid #3684d2;border-radius:5px;background:white;cursor:pointer;" onclick="lease()">신차리스</span><br><br><br>
 
     
@@ -60,48 +88,67 @@ testbody.innerHTML = `
 
         <div id="rent">
         <div class="box">
-            <h3 style="line-height:1.4"><img src="./img/grand.png"> 그랜저<br><span>GN7 (H) 1.6T 익스클루시브</span></h3>
-            <p class="p-text">
-                차량가 <b>49,530,000원</b><br><br>
-                <del>월 551,700원</del><br>
-                월 <span class="counter" style="font-size:27px;">524,324</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-           
+        <h3 style="line-height:1.4"><img src="https://direct.lotterentacar.net/atch/getImage.do?atchFileId=ODM0000000000011123&fileSn=0"> <span>아반떼</span></h3>
+        <p class="p-text" style="font-size:20px;">
+        <!-- <del>월 1,137,200원</del><br> -->
+        월 <span class="counter" style="font-size:27px;">34</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+        [즉시 출고 가능]
+          </span>
+        </p>
+        <p class="m-text" style="font-size:17px;">
+        <!-- <del>월 1,137,200원</del><br> -->
+        월 <span class="counter" style="font-size:27px;">34</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+        [즉시 출고 가능]
+      </span>
+         
+        </p>
+    </div>
+        <div class="box">
+            <h3 style="line-height:1.4"><img src="./img/grand.png"><br><span>그랜저</span></h3>
+            <p class="p-text" >
+            <!-- <del>월 1,137,200원</del><br> -->
+            월 <span class="counter" style="font-size:27px;">51</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+            [즉시 출고 가능]
               </span>
             </p>
             <p class="m-text">
-                차량가 <b>49,530,000원</b><br><br>
-                <del>월 551,700원</del><br>
-                월 <span class="counter" style="font-size:20px;">524,324</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-                [7일 배송 특가]
+                <!-- 차량가 <b>49,530,000원</b><br><br>
+                <del>월 551,700원</del><br> -->
+                월 <span class="counter" style="font-size:27px;">51</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                [즉시 출고 가능]
             </p>
         </div>
         <div class="box">
-            <h3 style="line-height:1.4"><img src="./img/carnival.png"> 카니발 4세대<br><span>KA4 (D) 2.2 노블레스 9인승</span></h3>
-            <p class="p-text">
-                <del>월 512,390원</del><br>
-                월 <span class="counter" style="font-size:27px;">455,240</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+            <h3 style="line-height:1.4"><img src="./img/carnival.png"><span>카니발 4세대</span></h3>
+            <p class="p-text" >
+                <!-- <del>월 512,390원</del><br> -->
+                월 <span class="counter" style="font-size:27px;">45</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                [즉시 출고 가능]
               </span>
             </p>
             <p class="m-text">
-                <del>월 512,390원</del><br>
-                월 <span class="counter" style="font-size:20px;">455,240</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-           
+                <!-- <del>월 512,390원</del><br> -->
+                월 <span class="counter" style="font-size:20px;">45</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                [즉시 출고 가능]
             </p>
         </div>
 
         <div class="box">
-            <h3 style="line-height:1.4"><img src="./img/gv80.png"> GENESIS G80<br><span>THE ALL NEW GENESIS G80 (G) 3.5T</span></h3>
-            <p class="p-text">
-                <del>월 1,137,200원</del><br>
-                월 <span class="counter" style="font-size:27px;">1,011,615</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-              </span>
-            </p>
-            <p class="m-text">
-                <del>월 1,137,200원</del><br>
-                월 <span class="counter" style="font-size:20px;">1,011,615</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-             
-            </p>
-        </div>
+        <h3 style="line-height:1.4"><img src="https://direct.lotterentacar.net/atch/getImage.do?atchFileId=ODM0000000000011240&fileSn=0"><span>투싼</span></h3>
+        <p class="p-text">
+            <del>월 512,390원</del><br>
+            월 <span class="counter" style="font-size:27px;">44</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+            [즉시 출고 가능]
+          </span>
+        </p>
+        <p class="m-text">
+            <del>월 512,390원</del><br>
+            월 <span class="counter" style="font-size:27px;">44</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+            [즉시 출고 가능]
+        </p>
+    </div>
+
+      
     </div>
 
 
@@ -112,13 +159,14 @@ testbody.innerHTML = `
                 차량가 <b>76,100,000원</b><br><br>
                 <del>월 1,453,900원</del><br>
                 월 <span class="counter" style="font-size:27px;">1,376,800</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-           
+                [즉시 출고 가능]
               </span>
             </p>
             <p class="m-text">
                 차량가 <b>76,100,000원</b><br><br>
                 <del>월 1,453,900원</del><br>
                 월 <span class="counter" style="font-size:27px;">1,376,800</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                [즉시 출고 가능]
             </p>
         </div>
         <div class="box">
@@ -127,13 +175,13 @@ testbody.innerHTML = `
                 차량가 <b>37,850,000원</b><br><br>
                 <del>월 685,200원</del><br>
                 월 <span class="counter" style="font-size:27px;">645,400</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-           
-      
+                [즉시 출고 가능]
             </p>
             <p class="m-text">
                 차량가 <b>37,850,000원</b><br><br>
                 <del>월 685,200원</del><br>
                 월 <span class="counter" style="font-size:27px;">645,400</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                [즉시 출고 가능]
             </p>
         </div>
 
@@ -143,33 +191,41 @@ testbody.innerHTML = `
                 차량가 <b>69,600,000원</b><br><br>
                 <del>월 1,316,700원</del><br>
                 월 <span class="counter" style="font-size:27px;">1,246,200</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
-           
+                [즉시 출고 가능]
               </span>
             </p>
             <p class="m-text">
                 차량가 <b>69,600,000원</b><br><br>
                 <del>월 1,316,700원</del><br>
                 월 <span class="counter" style="font-size:27px;">1,246,200</span>원<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                [즉시 출고 가능]
             </p>
         </div>
     </div>
 
     </div>
 </div>
+
+
+
+
+
 <div class="sec02 contents">
     <ul class="inner">
         <li class="wow fadeInUp">
-            <div class="title">한정 수량</div>
+            <div class="title">한정 수량 차종</div>
             <div class="txt">
-                - 오늘 기준 (<span class="today_date" style="bottom:0;"></span>) 의 특가 상품만을 구성<br><br>
+                - 오늘 기준 (<span class="today_date" style="bottom:0;"></span>) 의 특가상품 구성<br><br>
+                - 원하시는 차종에 맞는 매물을 바로 찾아드립니다.<br><br>
                 <span class="blink" >- 수량 마감 시 혜택이 끝날 수 있습니다. </span><br><br>
                 - 국내, 수입차 전차종 견적도 추가할인해 드립니다.
             </div>
-        </li>
+        </li><br>
         <li class="wow fadeInUp" data-wow-delay=".1s">
-            <div class="title">지원대상 및 신청방법</div>
+            <div class="title">할인 혜택 대상 및 신청방법</div>
             <div class="txt">
-                <span style="bottom:0px;">지원대상: </span> 24세 이상 성인 누구나<br><br>
+            <br>
+                <span style="bottom:0px;">할인대상: </span> 24세 이상 현재 페이지 신청자<br><br>
                 <span style="bottom:0px;">신청방법: </span> 하단 신청란에 신청 가능<br>
                
             </div>
@@ -183,29 +239,7 @@ testbody.innerHTML = `
 
     </ul>
 </div>
-<!-- <div class="sec03 contents bg-light">
-    <div class="inner">
-        <div class="row">
-            <div class="col-md-4 col-12 wow fadeInLeft">
-                <div class="row">
-                    <h2 class="col-md-12 col-6">
-                        가능 수익<br><span>조건마다<br>다를 수 있습니다.</span>
-                    </h2>
-                    <div class="col-md-12 col-6">
-                        <img src="img/won.png">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 col-12 wow fadeInRight">
-                <p>
-                    프리랜서 1건당 <span>30~40만원</span><br>
-                    정규직<br><span class="counter">3,000</span><span>만원 이상</span>
-                   
-                </p>
-            </div>
-        </div>
-    </div>
-</div> -->
+
 <!-- <div class="sec04 contents" id="sec05">
     <div class="inner">
         <div class="row">
@@ -278,7 +312,7 @@ testbody.innerHTML = `
 
 <div class="form-box" id="fm-box">
     <div class="inner">
-        <h1 class="form-top-title">오늘의 특가 견적 신청하기</h1>
+        <h1 class="form-top-title">한정 매물 견적 신청하기</h1>
         <div class="form-box-inner">
             <form action="" id="form_e11" method="POST" target="hidden_iframe11"  onsubmit="dll();kakaoPixel('7504569149976260948').purchase('purchase');submitted=true;">
 
@@ -460,7 +494,7 @@ testbody.innerHTML = `
     <div class="inner">
     <p>
     <p class="today_date1"></p>
-        현재 <span class="counter" style="bottom:1px;">142</span> 명이 신청 대기 중입니다.
+        현재 <span class="counter" style="bottom:1px;">27</span> 명이 신청 대기 중입니다.
     </p>
     <div class="box_02">
         <div class="box_02_1">
@@ -530,6 +564,7 @@ testbody.innerHTML = `
     
     사업자등록번호 214-87-79183 통신판매업신고번호 : 제2010-경기안양-420호<br>
 
+    마케팅 대행업체: 플로스 | flosmarketing@naver.com | 서울 영등포구 선유로 53길 22 502호 | 사업자등록번호: 471-09-01112   
 </footer>
 </div>
 
@@ -568,7 +603,7 @@ testbody.innerHTML = `
         개인정보의 보유 및 이용기간><br>
         원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.<br><br>
 
-        보존 항목 : 이름 , 휴대전화번호 , 필요시기, 직업구분, 대출신청종류 등.<br>
+        보존 항목 : 이름 , 휴대전화번호 , 차종 등.<br>
         보존 근거 : 고객의요청이 있을시 즉시폐기<br>
         보존 기간 : 3년<br><br>
 
