@@ -89,15 +89,15 @@ testbody.innerHTML = `
         <div id="rent">
         <div class="box">
         <h3 style="line-height:1.4"><img src="https://direct.lotterentacar.net/atch/getImage.do?atchFileId=ODM0000000000011123&fileSn=0"> <span>아반떼</span></h3>
-        <p class="p-text" style="font-size:20px;">
+        <p class="p-text" >
         <!-- <del>월 1,137,200원</del><br> -->
-        월 <span class="counter" style="font-size:27px;">34</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+        월 <span class="counter" style="font-size:27px;">33</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
         [즉시 출고 가능]
           </span>
         </p>
-        <p class="m-text" style="font-size:17px;">
+        <p class="m-text" >
         <!-- <del>월 1,137,200원</del><br> -->
-        월 <span class="counter" style="font-size:27px;">34</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+        월 <span class="counter" style="font-size:27px;">33</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
         [즉시 출고 가능]
       </span>
          
@@ -107,14 +107,14 @@ testbody.innerHTML = `
             <h3 style="line-height:1.4"><img src="./img/grand.png"><br><span>그랜저</span></h3>
             <p class="p-text" >
             <!-- <del>월 1,137,200원</del><br> -->
-            월 <span class="counter" style="font-size:27px;">51</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+            월 <span class="counter" style="font-size:27px;">50</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
             [즉시 출고 가능]
               </span>
             </p>
             <p class="m-text">
                 <!-- 차량가 <b>49,530,000원</b><br><br>
                 <del>월 551,700원</del><br> -->
-                월 <span class="counter" style="font-size:27px;">51</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                월 <span class="counter" style="font-size:27px;">50</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
                 [즉시 출고 가능]
             </p>
         </div>
@@ -122,14 +122,15 @@ testbody.innerHTML = `
             <h3 style="line-height:1.4"><img src="./img/carnival.png"><span>카니발 4세대</span></h3>
             <p class="p-text" >
                 <!-- <del>월 512,390원</del><br> -->
-                월 <span class="counter" style="font-size:27px;">45</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                월 <span class="counter" style="font-size:27px;">45</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
                 [즉시 출고 가능]
               </span>
             </p>
             <p class="m-text">
                 <!-- <del>월 512,390원</del><br> -->
-                월 <span class="counter" style="font-size:20px;">45</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
+                월 <span class="counter" style="font-size:27px;">45</span>만원 대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
                 [즉시 출고 가능]
+              </span>
             </p>
         </div>
 
@@ -145,6 +146,7 @@ testbody.innerHTML = `
             <del>월 512,390원</del><br>
             월 <span class="counter" style="font-size:27px;">44</span>만원대<br><span class="blink" >추가 할인 (신청자 한정)</span><br>
             [즉시 출고 가능]
+          </span>
         </p>
     </div>
 
