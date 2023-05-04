@@ -33,8 +33,8 @@ testbody.innerHTML = `
         </li>
         <li class="wow fadeInUp" data-wow-delay=".2s">
             <div>
-                전기차부터 신차까지<br>
-             <u style="color:yellow">한정수량 확보</u>
+                현재 페이지 신청자<br>
+             <u style="color:yellow">추가 할인 적용</u>
             </div>
         </li>
     </ul>
