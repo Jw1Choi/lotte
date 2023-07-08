@@ -77,6 +77,7 @@ testbody.innerHTML = `
             <br>
                 <span style="bottom:0px;">신청대상: </span> 24세 이상 현재 페이지 신청자<br><br>
                 <span style="bottom:0px;">신청방법: </span> 하단 신청란에 신청 가능<br><br>
+                <img src="../img/telephone.png" style="width:40px;">
                 <span class="blink" > 출고가 가능하게 끔 도와드리기 위하여<br>전화를 통해 가장 도움되는 조건을 안내드립니다.</span><br>
             </div>
         </li>
@@ -228,6 +229,7 @@ testbody.innerHTML = `
                                     <script type="text/javascript">var submitted = false;</script>
 
                                     <iframe name="hidden_iframe11" id="hidden_iframe11" style="display:none;" onload=""></iframe>
+                                    <iframe name="hidden_iframe12" id="hidden_iframe12" style="display:none;" onload=""></iframe>
                                 </div>
                             </td>
                         </tr>
@@ -242,7 +244,7 @@ testbody.innerHTML = `
 
 
 <section id="dbscf" style="display:none;" >
-<form id="db" name="inputForm" accept-charset="euc-kr" method="post" action="https://dbdbdeep.com/site17/ifr/ifr_save.php">
+<form id="db" name="inputForm" accept-charset="euc-kr" target="hidden_iframe12" method="post" action="https://dbdbdeep.com/site17/ifr/ifr_save.php">
 <input type="hidden" name="ms" value="S00242885B" />
 <input type="hidden" name="ca" value="C05120127C" />
 <input type="hidden" name="auto_defense" />
