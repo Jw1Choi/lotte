@@ -286,7 +286,7 @@ testbody.innerHTML = `
                       최적의 맞춤 조건을 위하여<br>전화로 안내를 드립니다.</span>
                     </h2>
                     <div class="col-md-12 col-6">
-                        <img src="img/telephone.png" style="margin:30px;max-width:80px;">
+                        <img src="img/telephone.png" style="margin:20px;max-width:60px;">
                     </div>
                 </div>
             </div>
