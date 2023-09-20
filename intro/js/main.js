@@ -140,7 +140,7 @@
     autoplay: false,
     dots: false,
     loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 3 }, 900: { items: 3 }
+    responsive: { 0: { items: 3 }, 768: { items: 3 }, 900: { items: 3 }
     }
   });
 
