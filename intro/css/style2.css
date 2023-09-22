@@ -230,22 +230,22 @@ h6 {
 #intro .intro-info h2 {
   color: #3e3e3e;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 43px;
   font-weight: 550;
-  letter-spacing: 0px !important;
+  letter-spacing: -1px !important;
 }
 
 @media screen and (max-width:1200px) {
   
   #intro .intro-info h2 {
-    font-size: 35px ;
+    font-size: 32px ;
   }
 }
 
 @media screen and (max-width:991px) {
   
   #intro .intro-info h2 {
-    font-size: 30px ;
+    font-size: 27px ;
   }
 }
 
