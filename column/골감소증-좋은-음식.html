@@ -1269,6 +1269,48 @@
     <!-- Template Main Javascript File -->
     <script src="../js/menu.js"></script>
    
+
+    <script src="../js/ValidCheck.js" charset='utf-8'></script>
+    
+    <!-- jQuery 3.3.1 -->
+    <script language="JavaScript" type="text/JavaScript" charset='utf-8'>
+    //<![CDATA[
+             
+  var dbdb_submitted = false;
+  
+  function OnSubmit() {
+    if(dbdb_submitted == true) { return; }
+  
+    var f = document.inputForm;
+  
+    
+  
+      if ( VC_inValidText(f.name, "이름") ) return;
+      if ( VC_isUnselectRadio(f.sex, "성별") ) return;
+  
+      if ( VC_inValidText(f.age, "나이") ) return;
+      
+      if ( VC_inValidText(f.tel1, "연락처") ) return;
+      if ( VC_inValidNumber(f.tel1, "연락처") ) return;
+      if ( VC_inValidText(f.tel2, "연락처") ) return;
+      if ( VC_inValidNumber(f.tel2, "연락처") ) return;
+      if ( VC_inValidText(f.tel3, "연락처") ) return;
+      if ( VC_inValidNumber(f.tel3, "연락처") ) return;
+  
+  
+      
+      
+    if ( !f.agree.checked ) {
+      alert("개인정보 취급을 동의해 주세요!   ");
+      return;
+    }
+    
+    f.auto_defense.value = "identicharddeep!";
+  
+    dbdb_submitted = true;
+    f.submit();	
+  }
+      </script>
     <!-- <script src="../intro/js/slick.js"></script> -->
     <!-- <script src="../js/count-column.js" ></script> -->
      <!-- animation script -->
