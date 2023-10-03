@@ -644,7 +644,7 @@ h6 {
 @media screen and (max-width: 700px) {
 
   .section-header h3{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   .mobile-left{
@@ -1814,8 +1814,9 @@ margin-left:14px;
 
 #team p {
   padding-left:10px;
-  font-size:14px;
+  font-size:15px;
   line-height: 160%;
+  font-weight:400;
 }
 
 }
