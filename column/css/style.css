@@ -1164,6 +1164,31 @@ font-weight: 350;
 #features h4 {
   font-weight: 600;
   font-size: 24px;
+  border-left: 4px solid #5b5bff;
+  padding-left: 10px;
+}
+
+#features p {
+  padding-left:10px;
+  font-size:17px;
+}
+
+@media screen and (max-width:480px) {
+ 
+  
+#features h4 {
+font-size: 17px;
+    border-left: 4px solid #5b5bff;
+    padding-left: 10px;
+
+}
+
+#features p {
+  padding-left:10px;
+  font-size:14px;
+  line-height: 160%;
+}
+
 }
 
 /* Portfolio Section
@@ -1524,12 +1549,12 @@ font-size:40px !important;
 }
 
 #team p{
-  font-weight: 350;
-      font-size: 1px;
+  font-weight: 450;
+      font-size: 24px;
       line-height: 140%;
       word-break: keep-all;
       letter-spacing: -0.008em;
-      color: #666666;
+      color: #111;
   }
   
   .textleft{
@@ -1576,7 +1601,9 @@ font-size:40px !important;
   
   
   #team p{
-    font-size: 18px;
+    padding:30px;
+    font-size: 24px;
+
   }
 
  
@@ -1652,7 +1679,7 @@ font-size:40px !important;
     }
     
     #team p{
-      font-size: 15px;
+      font-size: 18px;
     }
   }
 
